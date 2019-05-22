@@ -1,0 +1,293 @@
+/* Header start */
+body{
+	margin: 0px;
+	margin-bottom: 0px;
+	font-family: sans-serif;
+}
+
+header{
+	background: #121B2A;
+
+}
+
+.wrapper{
+	width: 85%;
+	height: 120px;
+	margin: 0 auto;
+	overflow: hidden;
+
+}
+.logo{
+	width: 30%;
+	float: left;
+}
+.logo img{
+	width: 100%;
+}
+.menu{
+	width: 65%;
+	margin-top: 60px;
+	margin-left: 0px; 
+	float: right;
+	display: block;
+}
+.menu ul{
+	float: right;
+}
+.menu ul li{
+	list-style: none;
+	float: left;
+}
+.menu ul li a{
+	text-decoration: none;
+	font-size: 17px;
+	padding: 0 25px;
+	display: block;
+	color:  white;
+	transition: 0.4s;
+	float: left;
+	text-transform: uppercase;
+
+}
+.menu ul li:last-child a{
+	padding-right: 0;
+}
+.menu ul li a:hover{
+	color: #0A466F;
+}
+.menu ul li a.active{
+	color: #0A466F;
+}
+/* Header end*/
+/* slider start */
+.slider{
+	width: 100%;
+	height: 500px;
+	background: url('../image/solution.png');
+	background-repeat: no-repeat;
+	background-size: cover;
+	display: block;
+}.information{
+	margin-left: 50px;
+	padding: 50px;
+}
+.information h2{
+ 	font-family: monospace;
+ 	font-size: 28px;
+ 	color: white;
+ 	margin: 0;
+ 	margin-top: 130px;
+}
+.information .h3{
+	font-weight: bold;
+	font-size: 25px;
+	margin: 0;
+	color: #0079BC;
+}
+.information .para{
+	color: white;
+	font-weight: bold;
+}
+.information .link{
+	padding-top:0px;
+	background: white;
+	width: 160px;
+	position: absolute;
+	margin:  0px;
+	float: left;
+	display: inline;
+	padding: 10px;
+	text-decoration: none;
+	font-size: 25px;
+	font-weight: bold; 
+	color: #797979;
+	border-radius: 5px;
+	display: block;
+	font-family: sans-serif;
+}
+.img{
+ 	margin: 3px 0px 3px 3px;	
+ 	position: absolute;
+
+}
+/* slider end */
+/* sevice start */
+.serivce{
+		width: 100%;
+		height: 280px;
+		background: #121B2C;
+
+}
+.wirless{
+	width: 30%;
+	height: 100%;
+	float: left;
+	margin-left: 20px;
+	display: block;
+	font-family: sans-serif;
+	border-right: 1px dotted gray;
+}
+.mission{
+	width: 30%;
+	height: 100%;
+	float: left;
+	margin-left: 10px;
+	margin-right: 10px;
+	border-right: 1px dotted gray;
+}
+.system{
+	width: 30%;
+	height: 100%;
+	float: left;
+	margin-left: 20px;
+}
+.wire_icon{
+	width: 80%;
+	margin: 0 auto;
+	padding: 20px;
+	display: block;
+}
+
+.wire_icon img{
+	float: left;
+	margin-right: 0;
+	margin-top: 0px; 
+}
+.mission img{
+	margin-top: 0px;
+	height: 80px;
+}
+h3{
+	margin-left: 0;
+	color: white;
+	font-size: 20px;
+	font-weight: bold;
+} 
+.wire_cyber, .mission_app, .wire_system, .edage, .test, .edge_apps{
+	color: #045F96;
+}
+.wpara{
+	margin-top: 5px;
+	margin-left: 40px;
+	color: white;
+	font-size: 15px;
+	text-align: left;
+	line-height: 20px;
+}
+
+/* service end */
+/* contact start */
+.contact{
+	width: 100%;
+	height: 270px;
+	background: #040811;
+	display: block;
+	padding-right: 0;
+}
+.contact_size{
+margin-left: 50px;
+}
+.about{
+	width: 25%;
+	height: 90%;
+	float: left;
+	display: block;
+	color: white;
+}
+.about h2{
+	font-size: 20px;
+	text-align: left;
+	margin-left: 50px;
+
+}
+address{
+	text-align: left;
+	margin-left: 50px;
+	line-height: 25px;
+}
+.testimonial{
+	width: 30%;
+	height: 100%;
+	float: left;
+	color: white;
+	margin-left: 20px;
+	margin-right: 20px;
+}
+.msg{
+	width: 80%;
+	height: 60%;
+	margin-top: 20px;
+	background: #0C1019;
+	text-align: center;
+	padding: 20px;
+}
+.testsecondpart{
+	margin: 0 0 0 20px;
+	line-height: 0;
+	font-size: 10px;
+}
+
+.app{
+	width: 30%;
+	height: 100%;
+	float: left;
+}
+.ph img{
+	width: 40%;
+	height: 250px;
+	float: left;
+	margin-right: 35px;
+}
+.ph_two{
+	margin-left: 30px;
+}
+.ph_two h2{
+	color: white;
+}
+
+/* Contact end */
+/* footer start */
+.footer{
+	width: 100%;
+	height: 100px;
+	background: #121B2C;
+}
+.navbar{
+  bottom: 0;
+  width: 60%;
+  float: left;
+  margin-top: 10px;
+  line-height: 5px;
+}
+.nav ul li{
+	list-style: none;
+	margin-left: 40px;
+}
+.nav ul li a{
+	text-decoration: none;
+	color:  white;
+	border-right: 1px solid white;
+	padding: 20px;
+	margin-left: 0px;
+	margin-right: 0px;
+
+}
+.nav ul li a:last-child{
+		border: none;
+		padding-right: 0;
+}
+.navbar p{
+	color:  white;
+	padding: 10px;
+	font-size: 15px;
+	float: left;
+	margin-left: 87px;
+}
+.ficon{
+	width: 35%;
+	height: 100%;
+	float: left;
+	overflow: hidden;
+	margin-left: 0px;
+}
+/* footer end */
